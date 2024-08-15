@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {
       colors:{
-        'main': '#a28089',
-      }
+        'primary': '#a28089',
+      },
+      cursor:{
+        'fancy': "./assets/fancycursor.cur",
+      },
       
     },
   },
