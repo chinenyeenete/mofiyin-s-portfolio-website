@@ -21,7 +21,7 @@ const Navbar = () => {
         setTab(!tab);
     }*/}
   return (
-    <nav className="bg-primary mb-8 flex items-center justify-between py-3 px-9">
+    <nav className="bg-primary mb-8 flex items-center justify-between y-3 px-9 fixed top-0 w-full shadow-2xl">
         <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="logo" className="h-14 w-auto hover:cursor-pointer"/>
         </div>
