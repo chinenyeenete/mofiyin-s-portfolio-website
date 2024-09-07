@@ -2,14 +2,15 @@ import logo from "../assets/Logo.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {HiOutlineDocumentText} from "react-icons/hi2";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     
     const navigate = useNavigate();
 
   return (
-    <nav className="bg-primary mb-8 flex items-center justify-between y-3 px-9 fixed top-0 w-full shadow-2xl">
+    <nav className="bg-primary mb-10 flex items-center justify-center y-3 px-9 fixed top-0 w-full shadow-2xl">
+        <div className="flex justify-between items-center w-11/12"> 
         <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="logo" className="h-14 w-auto hover:cursor-pointer"/>
         </div>
@@ -34,6 +35,7 @@ const Navbar = () => {
                 <HiOutlineDocumentText/>
                 <a href="../assets/Angel Saka Resume.pdf" target="_blank">Resume</a>
             </div>
+        </div>
         </div>
     </nav>
   );

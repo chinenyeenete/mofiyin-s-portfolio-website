@@ -49,11 +49,9 @@ const Projects = () => {
                 <h3 className="prose text-sm text-slate-500">August 2024</h3>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Overview</h2>
                 <p className="prose pt-5 text-md text-gray-600 dark:text-gray-300 text-center">HarmoniScript is a web application created to empower musicians and composers by turning audio recordings into sheet music instantly and seamlessly. It offers a user-friendly platform that allows users to upload a song and receive sheet music for multiple instruments.</p>
               </div>
               <div className="flex flex-col justify-center items-center gap-3">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Tools</h2>
                 <div className="flex flex-wrap justify-center items-left gap-3">
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">Tailwind CSS</p>
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">React.js</p>
@@ -85,11 +83,9 @@ const Projects = () => {
                 <h3 className="prose text-sm text-slate-500">April 2024 - August 2024</h3>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Overview</h2>
                 <p className="prose pt-5 text-md text-gray-600 dark:text-gray-300 text-center">I developed a custom track level fusion algorithm for a 1/10 scaled ego vehicle using Global Nearest Neighbor (GNN) Assignment and a Kalman filter. The algorithm is part of a sensor fusion model of two 2D LiDARs and a Zed Camera.</p>
               </div>
               <div className="flex flex-col justify-center items-center gap-3">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Tools</h2>
                 <div className="flex flex-wrap justify-center items-left gap-3">
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">MATLAB</p>
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">Simulink</p>
@@ -123,11 +119,9 @@ const Projects = () => {
                 <h3 className="prose text-sm text-slate-500">July 2024 - August 2024</h3>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Overview</h2>
                 <p className="prose pt-5 text-md text-gray-600 dark:text-gray-300 text-center">My personal portfolio website created using React.js and Tailwind CSS and deployed on Vercel. It includes my background, experiences, projects, resume and more!</p>
               </div>
               <div className="flex flex-col justify-center items-center gap-3">
-                <h2 className="text-md mb-0 font-bold leading-9 tracking-tight text-black sm:text-lg sm:leading-10 md:text-xl md:leading-14">Tools</h2>
                 <div className="flex flex-wrap justify-center items-left gap-3">
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">HTML</p>
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">JavaScript</p>
