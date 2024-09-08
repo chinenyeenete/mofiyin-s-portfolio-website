@@ -1,4 +1,4 @@
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 import {TfiEmail} from "react-icons/tfi";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
