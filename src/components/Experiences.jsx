@@ -1,4 +1,6 @@
 import {motion} from 'framer-motion'
+
+{/*Work Experiences & Extracurriculars*/}
 const Experiences = () => {
   return (
     <div className="w-full m-5 md:m-10">

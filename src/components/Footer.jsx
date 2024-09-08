@@ -4,6 +4,8 @@ import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {HiOutlineDocumentText} from "react-icons/hi2";
 import {motion} from "framer-motion";
+
+{/*Footer & Contact Info*/}
 const Footer = () => {
   return (
     <div className="bg-primary mt-8 flex items-center justify-center px-2 md:px-5 bottom-0 w-full shadow-2xl">

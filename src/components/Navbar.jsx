@@ -7,6 +7,7 @@ import {HiOutlineDocumentText} from "react-icons/hi2";
 import {motion} from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
+{/*Navigation Bar*/}
 const Navbar = () => {
 
     const [nav, setNav] = useState(false);

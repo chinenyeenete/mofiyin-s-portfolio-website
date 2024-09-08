@@ -1,9 +1,12 @@
 import Avatar from '../assets/avatar.jpeg';
 import {motion} from "framer-motion";
+
+{/*Intro + Avatar*/}
 const Intro = () => {
   return (
     <div className="border-b border-white px-9 py-5 mt-20 justify-center items-center lg:mb-20">
         <div className="flex flex-wrap justify-center items-center w-full ">
+            {/*Intro*/}
             <div className="w-full lg:w-1/2 p-12">
                 <div className="flex flex-col mt-14 justify-center items-center gap-3">
                     <motion.div 
@@ -23,6 +26,7 @@ const Intro = () => {
                     </motion.p>
                 </div>
             </div>
+            {/*Avatar*/}
             <div className="w-full lg:w-2/5 p-12">
                 <motion.div 
                     initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotateY: 30 }} style={{perspective:"1000px"}} transition={{ease: "linear", duration: 2, type: "spring", stiffness: 100, delay:0}}

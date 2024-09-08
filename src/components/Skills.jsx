@@ -11,10 +11,11 @@ import {SiRos} from "react-icons/si";
 import {motion} from "framer-motion";
 import { FaAward } from "react-icons/fa";
 
-
+{/*Skills & Awards*/}
 const Skills = () => {
   return (
     <div className="w-full pb-4 mt-14 lg:mb-35">
+      {/*Skills*/}
       <motion.div 
         initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{once: false, amount: 0.1}} transition={{ duration: 1 }}
         className="flex flex-col justify-center items-center ">
@@ -82,6 +83,8 @@ const Skills = () => {
           </motion.div>
         </div>
       </motion.div>
+
+      {/*Awards*/}
       <motion.div 
         initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{once: false, amount: 0.1}} transition={{ duration: 1 }}
         className="flex flex-col justify-center items-center ">
