@@ -39,7 +39,7 @@ const Navbar = () => {
                 </div>
                 <div className= "bg-black-500 p-1 rounded flex items-center gap-1">
                     <HiOutlineDocumentText/>
-                    <a href="../assets/Angel Saka Resume.pdf" target="_blank">Resume</a>
+                    <a href="/Angel Saka Resume.pdf" target="_blank">Resume</a>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </li>
                 <li className= "bg-black-500 py-2 rounded flex items-center gap-1">
                     <HiOutlineDocumentText/>
-                    <a href="../assets/Angel Saka Resume.pdf" target="_blank" className="text-md">Resume</a>
+                    <a href="/Angel Saka Resume.pdf" target="_blank" className="text-md">Resume</a>
                 </li>
             </ul>
         </div>
