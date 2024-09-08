@@ -6,7 +6,7 @@ import Fusion from '../assets/fusion.png';
 import { RiFilePaper2Line } from "react-icons/ri";
 import Divider from "../assets/div.png";
 import {motion} from "framer-motion";
-import {Portfolio} from "../assets/portfolio.png";
+import Portfolio from "../assets/portfolio.png";
 
 {/* Technical Projects*/} 
 const Projects = () => {
