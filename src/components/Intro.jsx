@@ -26,7 +26,7 @@ const Intro = () => {
             <div className="w-full lg:w-2/5 p-12">
                 <motion.div 
                     initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotateY: 30 }} style={{perspective:"1000px"}} transition={{ease: "linear", duration: 2, type: "spring", stiffness: 100, delay:0}}
-                    className="flex justify-center items-center mt-14">
+                    className="flex justify-center items-center mt-5 md:mt-14">
                     <motion.img style={{transformStyle: "preserve-3d"}} src={Avatar} alt="Avatar" className="rounded-full hover:cursor-pointer" />
                 </motion.div>
             </div>

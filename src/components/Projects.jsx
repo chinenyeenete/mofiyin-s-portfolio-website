@@ -35,14 +35,14 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <div className="w-full mt-14 m-10">
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-3xl mb-0 mt-14 font-extrabold leading-9 tracking-tight text-primary dark:text-primary sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">Projects</h1>
-        <div className="m-14 flex flex-col justify-center items-center p-5 gap-14 w-4/5">
+    <div className="w-full flex justify-center items-center mt-14 m-5 md:m-10">
+      <div className="flex flex-col justify-center items-center mr-10">
+        <h1 className="text-3xl mb-0 mt-14 font-extrabold w-11/12 md:w-4/5 text-center leading-9 tracking-tight text-primary dark:text-primary sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">Projects</h1>
+        <div className="m-14 flex flex-col justify-center items-center p-5 gap-14 w-11/12 md:w-4/5">
           {/* HarmoniScript Project */}        
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 1, ease: "easeInOut", delay:0.5}}
-            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-10 gap-5">
+            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-5 md:p-10 gap-5">
             <div className="p-2 w-full lg:w-2/5">
               <img src={Harmoniscript} alt={"HarmoniScript"} className="hover:cursor-pointer"/>
             </div>
@@ -81,7 +81,7 @@ const Projects = () => {
           {/* Track Level Fusion Project */}
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 1, ease: "easeInOut", delay:0.5}}
-            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-10 gap-5">
+            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-5 md:p-10 gap-5">
             <div className="flex flex-col justify-center items-center gap-7 w-full lg:w-1/2">
               <div className="flex flex-col justify-center items-center gap-2">
                 <h1 className="text-xl mb-0 font-bold leading-9 tracking-tight text-black sm:text-2xl sm:leading-10 md:text-3xl md:leading-14">Track Level Fusion</h1>
@@ -116,7 +116,7 @@ const Projects = () => {
           {/*Portfolio Website*/}
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: true}} transition={{duration: 1, ease: "easeInOut", delay:0.5}}
-            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-10 gap-5">
+            className="flex flex-wrap justify-center items-center rounded-2xl bg-white hover:shadow-pic border border-black border-width-100px hover:border-primary p-5 md:p-10 gap-5">
             <div className="p-2 w-full lg:w-2/5">
               <img src={Harmoniscript} alt={"Portfolio Website"} className="hover:cursor-pointer"/>
             </div>

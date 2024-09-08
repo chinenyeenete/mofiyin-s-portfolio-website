@@ -17,9 +17,9 @@ const Skills = () => {
     <div className="w-full pb-4 mt-14 lg:mb-35">
       <motion.div 
         initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{once: false, amount: 0.1}} transition={{ duration: 1 }}
-        className="flex flex-col justify-center items-center lg: items-start">
+        className="flex flex-col justify-center items-center lg:items-start">
         <h1 className="text-3xl mb-0 font-extrabold leading-9 tracking-tight text-primary dark:text-primary sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">Skills</h1>
-        <div className="m-10 flex flex-wrap justify-center items-center p-20 gap-12 w-5/6">
+        <div className="m-4 md:m-10 flex flex-wrap justify-center items-center p-5 md:p-20 gap-12 w-5/6">
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
