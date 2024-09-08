@@ -102,7 +102,7 @@ const Projects = () => {
               <div className="flex flex-wrap justify-center items-center gap-3">
                   <div className="flex flex-wrap justify-center items-center p-3 gap-2 border border-primary rounded-xl hover:cursor-pointer hover:bg-primary">
                     <RiFilePaper2Line />
-                    <a href='../assets/Mofiyinfoluwa Angel Saka - Research Poster 2024.pdf' target="_blank" className="prose text-black text-md">View Poster</a>
+                    <a href='/Mofiyinfoluwa Angel Saka - Research Poster 2024.pdf' target="_blank" className="prose text-black text-md">View Poster</a>
                   </div>
               </div>
             </div>
