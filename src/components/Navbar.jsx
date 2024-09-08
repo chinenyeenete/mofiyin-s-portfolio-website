@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from "../assets/Logo.png";
+import logo from "../assets/logo.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub, FaBars} from "react-icons/fa";
 import {ImCancelCircle} from "react-icons/im";
