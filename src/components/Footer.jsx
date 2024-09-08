@@ -3,22 +3,27 @@ import {TfiEmail} from "react-icons/tfi";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {HiOutlineDocumentText} from "react-icons/hi2";
+import {motion} from "framer-motion";
 const Footer = () => {
   return (
     <div className="bg-primary mt-10 flex items-center justify-center y-10 px-10 bottom-0 w-full shadow-2xl">
       <div className="flex flex-row justify-between md:justify-center items-center w-11/12 gap-10 p-3 md:p-5">
         {/*Name and Logo*/}
-        <div className="flex justify-center items-center w-1/4 md:w-1/2 gap-4 flex-col lg:flex-row">
+        <motion.div 
+          whileInView={{ scale: [1, 1.1, 1] }} viewport={{ once: false, amount: 0.5 }} transition={{duration: 1}}
+          className="flex justify-center items-center w-1/4 md:w-1/2 gap-4 flex-col lg:flex-row">
           <div className="flex flex-shrink-0 items-center">
             <img src={logo} alt="logo" className="h-14 w-auto hover:cursor-pointer"/>
           </div>
           <div>
             <p className="prose text-md md:text-lg font-semibold text-center text-white ">Mofiyinfoluwa Angel Saka ©️ 2024</p>
           </div>
-        </div>
+        </motion.div>
 
         {/*Contact*/}
-        <div className="flex flex-col justify-center items-center w-1/4 md:w-1/2 gap-4">
+        <motion.div 
+          whileInView={{ scale: [1, 1.1, 1] }} viewport={{ once: false, amount: 0.5 }} transition={{duration: 1}}
+          className="flex flex-col justify-center items-center w-1/4 md:w-1/2 gap-4">
           <h2 className="prose text-xl font-semibold text-center text-white">Contact</h2>
           <div className="flex flex-row justify-center items-center gap-4">
             <div className="p-3 rounded flex items-center">
@@ -35,7 +40,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="prose text-md text-center text-gray-300">Thanks for stopping by!</p>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
