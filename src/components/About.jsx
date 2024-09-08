@@ -7,7 +7,7 @@ const About = () => {
     <div className="w-full pb-4 mt-12 lg:mb-20 flex justify-center items-center">
         <motion.div 
             initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{once: false, amount: 0.1}} transition={{ duration: 1 }}
-            className="flex flex-col justify-between items-center md:items-start w-11/12">
+            className="flex flex-col justify-between items-center w-11/12">
             <motion.h1 initial={{ y: -100, opacity:0}} whileInView={{y:0, opacity:1}} transition={{duration: 0.5, delay:0.5}} className="text-3xl mb-0 font-extrabold leading-9 tracking-tight text-primary dark:text-primary sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">About Me</motion.h1>
             <div className="flex flex-wrap justify-center items-center">
                 <div className="w-full lg:w-1/2">
