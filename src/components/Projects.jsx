@@ -134,7 +134,7 @@ const Projects = () => {
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">JavaScript</p>
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">Tailwind CSS</p>
                   <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">React.js</p>
-                  <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">Vercel</p>
+                  <p className="prose p-3 border border-gray-600 bg-gray-100 rounded-3xl text-sm font-serif text-rose-900">Framer Motion</p>
                 </div>
               </div>
               <div className="flex flex-wrap justify-center items-center gap-3">
