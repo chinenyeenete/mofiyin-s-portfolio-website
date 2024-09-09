@@ -25,61 +25,61 @@ const Skills = () => {
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
             <SiPython className="w-16 h-16 text-black dark:text-white" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">Python</h3>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">Python</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: -25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <SiCplusplus className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">C++</h3>
+            <SiCplusplus className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">C++</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaHtml5 className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">HTML</h3>
+            <FaHtml5 className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">HTML</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: -25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaCss3Alt className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">CSS</h3>
+            <FaCss3Alt className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">CSS</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaJsSquare className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">JavaScript</h3>
+            <FaJsSquare className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">JavaScript</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: -25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaReact className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">React</h3>
+            <FaReact className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">React</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <SiTailwindcss className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">Tailwind</h3>
+            <SiTailwindcss className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">Tailwind</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: -25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaGitAlt className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">Git</h3>
+            <FaGitAlt className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">Git</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: 25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <FaLinux className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">Linux</h3>
+            <FaLinux className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">Linux</h3>
           </motion.div>
           <motion.div 
             initial={{opacity: 0, scale:0.5}} animate={{opacity: 1, scale:1}} whileHover={{ rotate: -25 }} style={{perspective:"1000px"}}
             className="flex flex-col justify-center items-center border-primary border-4 rounded-lg p-5 gap-3">
-            <SiRos className="w-16 h-16 text-black dark:text-primary" />
-            <h3 className="prose text-lg text-gray-600 dark:text-gray-300">ROS</h3>
+            <SiRos className="w-16 h-16 text-black dark:text-white" />
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">ROS</h3>
           </motion.div>
         </div>
       </motion.div>
@@ -92,38 +92,38 @@ const Skills = () => {
         <div className="m-10 flex flex-wrap justify-center items-center p-5 gap-12">
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, ease: "easeInOut", delay:0.5}}
-            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-white shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
-            <FaAward className="w-12 h-12 text-black dark:text-primary" />
-            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-white text-center">G3 Grow Beyond Scholarship</h2>
-            <h3 className="prose text-lg text-gray-600 dark:text-white">- Jun 2023</h3>
+            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-primary dark:bg-gradient-to-r dark:from-black dark:to-secondary shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
+            <FaAward className="w-12 h-12 text-black dark:text-gray-300" />
+            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-gray-100 text-center">G3 Grow Beyond Scholarship</h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">- Jun 2023</h3>
           </motion.div>
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, ease: "easeInOut", delay:0.6}}
-            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-white shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
-            <FaAward className="w-12 h-12 text-black dark:text-primary" />
-            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-white text-center">McMaster Engineering Research Experience Award (EREA)</h2>
-            <h3 className="prose text-lg text-gray-600 dark:text-white">- Mar 2023</h3>
+            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-primary dark:bg-gradient-to-r dark:from-black dark:to-secondary shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
+            <FaAward className="w-12 h-12 text-black dark:text-gray-300" />
+            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-gray-100 text-center">McMaster Engineering Research Experience Award (EREA)</h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">- Mar 2023</h3>
           </motion.div>
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, ease: "easeInOut", delay:0.7}}
-            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-white shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
-            <FaAward className="w-12 h-12 text-black dark:text-primary" />
-            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-white text-center">McMaster Faculty of Engineering Award of Excellence</h2>
-            <h3 className="prose text-lg text-gray-600 dark:text-white">- Mar 2023</h3>
+            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-primary dark:bg-gradient-to-r dark:from-black dark:to-secondary shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
+            <FaAward className="w-12 h-12 text-black dark:text-gray-300" />
+            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-gray-100 text-center">McMaster Faculty of Engineering Award of Excellence</h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">- Mar 2023</h3>
           </motion.div>
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, ease: "easeInOut", delay:0.8}}
-            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-white shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
-            <FaAward className="w-12 h-12 text-black dark:text-primary" />
-            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-white text-center">Yves and Cynthia Bled Award for Women In Engineering</h2>
-            <h3 className="prose text-lg text-gray-600 dark:text-white">- Mar 2023</h3>
+            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-primary dark:bg-gradient-to-r dark:from-black dark:to-secondary shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
+            <FaAward className="w-12 h-12 text-black dark:text-gray-300" />
+            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-gray-100 text-center">Yves and Cynthia Bled Award for Women In Engineering</h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">- Mar 2023</h3>
           </motion.div>
           <motion.div 
             initial={{ y: -50 , opacity: 0}} whileInView={{ y: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, ease: "easeInOut", delay:0.9}}
-            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-white shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
-            <FaAward className="w-12 h-12 text-black dark:text-primary" />
-            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-white text-center">Marlene Thomas Community Advocacy Award</h2>
-            <h3 className="prose text-lg text-gray-600 dark:text-white">- Feb 2023</h3>
+            className="flex flex-wrap justify-center items-center w-full lg:w-1/3 lg:flex-col p-6 gap-5 bg-white border border-black dark:border-primary dark:bg-gradient-to-r dark:from-black dark:to-secondary shadow-2xl shadow-gray-300 hover:shadow-pic rounded-3xl">
+            <FaAward className="w-12 h-12 text-black dark:text-gray-300" />
+            <h2 className="prose font-bold text-2xl text-gray-600 dark:text-gray-100 text-center">Marlene Thomas Community Advocacy Award</h2>
+            <h3 className="prose text-lg text-gray-600 dark:text-gray-100">- Feb 2023</h3>
           </motion.div>
         </div>
       </motion.div>

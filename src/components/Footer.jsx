@@ -38,7 +38,7 @@ const Footer = () => {
                 <a href="https://github.com/angiez37" target="_blank"><FaGithub className="text-pink-900 w-5 h-auto md:w-10 lg:w-10"/></a>
             </div>
             <div className= "p-3 rounded flex items-center">
-                <a href="../assets/Angel Saka Resume.pdf" target="_blank"><HiOutlineDocumentText className="text-pink-900 w-5 h-auto md:w-10 lg:w-10"/></a>
+                <a href="/Angel Saka Resume.pdf" target="_blank"><HiOutlineDocumentText className="text-pink-900 w-5 h-auto md:w-10 lg:w-10"/></a>
             </div>
           </div>
           <p className="prose text-md text-center text-gray-300">Thanks for stopping by!</p>

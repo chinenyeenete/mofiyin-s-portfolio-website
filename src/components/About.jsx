@@ -1,5 +1,5 @@
 import Pic from '../assets/profile.jpg';
-import Crochet from '../assets/crochet.png';
+import Crochet from '../assets/darkcrochet.png';
 import {motion} from "framer-motion";
 
 {/*About Me*/}
@@ -14,7 +14,7 @@ const About = () => {
                 <div className="w-full lg:w-1/2">
                     {/*Profile Picture*/}
                     <div className="flex p-10 md:p-20 flex-wrap items-center justify-center">
-                        <motion.img whileHover={{ scale: 1.1 }} initial={{ x: -75 , opacity: 0}} whileInView={{ x: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, delay:0.5}} src={Pic} alt="Profile Picture" className=" shadow-pic border border-primary border-width-100px border-b rounded-3xl hover:cursor-pointer" />
+                        <motion.img whileHover={{ scale: 1.1 }} initial={{ x: -75 , opacity: 0}} whileInView={{ x: 0 , opacity: 1}} viewport={{once: false, amount: 0.1}} transition={{duration: 0.5, delay:0.5}} src={Pic} alt="Profile Picture" className=" shadow-pic dark:shadow-darkpic border border-primary border-width-100px border-b rounded-3xl hover:cursor-pointer" />
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2">
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
 
-            {/*Fun Fact - rochet*/}
+            {/*Fun Fact - Crochet*/}
             <div className="flex flex-wrap justify-center w-full px-20 ml-6 md:ml-20 md:mb-14 items-center gap-7">
                 <div className="w-full md:w-1/2">
                     <h3 className="text-xl font-bold tracking-tight text-primary sm:text-2xl sm:leading-10 md:text-4xl md:leading-14">Fun fact about me, I love to crochet</h3>

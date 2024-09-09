@@ -6,5 +6,25 @@
 
 :root {
   font-family: "Inter", sans-serif;
-  cursor: fancy;
 }
+
+/* Default to light mode image */
+.light-img {
+  display: block;
+}
+
+.dark-img {
+  display: none;
+}
+
+/* Switch to dark mode image when dark mode is enabled */
+@media (prefers-color-scheme: dark) {
+  .light-img {
+    display: none;
+  }
+
+  .dark-img {
+    display: block;
+  }
+}
+

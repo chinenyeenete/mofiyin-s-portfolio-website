@@ -3,8 +3,9 @@ import {motion} from "framer-motion";
 
 {/*Intro + Avatar*/}
 const Intro = () => {
+
   return (
-    <div className="border-b border-white px-9 py-5 mt-20 justify-center items-center lg:mb-20">
+    <div className="px-9 py-5 mt-20 justify-center items-center lg:mb-20">
         <div className="flex flex-wrap justify-center items-center w-full ">
             {/*Intro*/}
             <div className="w-full lg:w-1/2 p-12">
