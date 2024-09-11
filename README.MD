@@ -14,7 +14,7 @@ Welcome to my personal website! This site serves as a digital portfolio showcasi
 - **Interactive Elements:** Includes animations and effects to enhance user engagement.
 
 ## Usage
-To explore the website, simply navigate through the different sections using the navigation bar. You can switch between light and dark modes using the toggle button in the bottm right corner. [portfolio website](https://angelsaka.vercel.app)
+To explore the website, simply navigate through the different sections using the navigation bar. You can switch between light and dark modes using the toggle button in the bottm right corner. [portfolio website](https://www.angelsaka.xyz)
 
 ## Contributing
 #### [Angel Saka](https://github.com/angiez37)
