@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* hid horizontal overflow display */
+body {
+  overflow-x: hidden;
+}
 :root {
   font-family: "Inter", sans-serif;
 }
